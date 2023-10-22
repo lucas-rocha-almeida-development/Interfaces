@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Interfaces
+{
+    internal interface IVeiculo
+    {
+        //metodos açoes que o carro faz 
+        void Ligar();
+        void Desligar();
+        void AbrirPorta();
+        void FecharPorta();
+
+    }
+}
